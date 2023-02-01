@@ -1,0 +1,157 @@
+/* target html for smooth scroll behaviour */
+html {
+    scroll-behavior: smooth;
+  }
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: blanchedalmond;
+}
+
+header {
+    width: 100%;
+    background-color: rgb(255, 224, 177);
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.title {
+    text-align: center;
+}
+/* remove bullet points from list and center navbar */
+.nav-bar ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 22px;
+}
+/* display navbar horizontally */
+.nav-bar li {
+    display: inline;
+}
+/* add space between nav elements */
+.nav-bar a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 25px;
+}
+/* add hover effect by changing color and bg color */
+.nav-bar a:hover {
+    color: blue;
+    background-color: antiquewhite;
+    transition: 0.3s;
+}
+
+/* set margins for all sections */
+section {
+    margin: 30px 100px;
+    padding: 15px 0;
+    line-height: 27px;
+}
+/* make all a tags a different color on hover*/
+a:hover {
+    color: blue;
+}
+
+/* center and scale picture */
+.lockup {
+    padding: 20px;
+    text-align: center;
+    font-size: 16px;
+}
+.lockup img {
+    width: 500px;
+    padding-bottom: 10px;
+}
+
+.styles {
+    text-align: center;
+    padding-bottom: 15px;
+}
+.style-images aside {
+    font-size: 12px;
+}
+/* align images horizontally */
+.style-images {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    text-align: center;
+}
+/* set image width to 100% to ensure section doesn't break on different screen sizes */
+.style-images img {
+    width: 100%;
+}
+
+
+.promo-pic {
+    text-align: center;
+    padding: 15px;
+    font-size: 16px;
+}
+.promo-pic img {
+    width: 500px;
+    height: auto;
+    padding-bottom: 10px;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 30px auto;
+    width: 80%;
+    height: 300px;
+    border: 2px solid black;
+    text-align: center;
+}
+table tr {
+    border: 1px solid black;
+}
+table th {
+    background-color: darkblue;
+    color: antiquewhite;
+}
+
+.form {
+    text-align: center;
+    padding-top: 20px;
+}
+.submit-btn {
+    margin-top: 10px;
+    padding: 10px 25px;
+    color: aliceblue;
+    background-color: rgb(65, 83, 189);
+    font-size: 15px;
+    font-weight: bold;
+}
+.submit-btn:hover {
+    cursor: pointer;
+    background-color: aliceblue;
+    color: rgb(65, 83, 189);
+    transition: .3s;
+}
+
+.about {
+    margin: 80px 150px;
+}
+ /* crop image and make round. place to left and wrap text around image */
+.nas {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+    float: left;
+    padding-right: 15px;
+}
+.about p {
+    text-align: justify;
+    line-height: 32px;
+}
+
+.contact {
+    text-align: center;
+    font-size: 1.75rem;
+    line-height: 2rem;
+    border: 5px dashed black;
+}
